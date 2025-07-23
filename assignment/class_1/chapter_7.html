@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Centered Form</title>
+  </head>
+  <body>
+    <div style="display: flex; justify-content: center; align-items: center; height: 100vh;">
+      <form style="display: flex; flex-direction: column; gap: 12px; border: 1px solid #ccc; padding: 20px; border-radius: 8px;">
+        <h2 style="text-align: center; margin: 0;">My Form</h2>
+
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" maxlength="10" placeholder="Enter 10-digit number" required>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" pattern=".{8,}" placeholder="At least 8 characters" required>
+
+        <label for="comments">Additional Comments:</label>
+        <textarea id="comments" name="comments" rows="4" cols="30" placeholder="Write something..."></textarea>
+
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+
+    <input type="text" placeholder="enter the name">
+  </body>
+</html>
