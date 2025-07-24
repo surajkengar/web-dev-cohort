@@ -1,101 +1,164 @@
-# Html concept
+# HTML Concepts
 
-today in class,i learned several html concept. lets explore these concept in these blog.
+Today in class, I learned several HTML concepts. Let's explore them in this blog.
 
- html stand for hyper text markup language. html is used to structure the webpage.
+HTML stands for **HyperText Markup Language**. It is used to structure the content of a webpage.
 
- ### Html Tag
- - #### Basic Formatting Tag
- 
-    <ol>  
-     <li> head tag </li>
-     it is used for store meta information like a title, links etc.
-     <li>body tag</li>
-     body tag contain the main information in web page.
-     <li>Html tag</li>
-     html is root tag of html docunment
-     <li>title tag</li>
-     title tag is used for showing title on browser
-   
+---
 
-    </ol> 
-- ####  text formatting
-   <ol>
-   <li>h1 to h6</li>
-   h1 to h6 is a heading tag.h1 has highest important and h6 has lowest imporant.
-   <li>p</li>
-   this is a paragraph tag used for paragraph in html.
-   <li>br</li>
-   br tag used for line breake.
-   <li>hr</li>
-   hr tag is used for horizontal line in page.
-   <li>b</li>
-   b tag is used for making a text bold.
-   <li>i</li>
-   i tag is used for making a text italic.
-   <li>em</li>
-   em tag in html used for highlight word in html.
-   <li>strong</li>
-   strong tag is used for making bold important text.
-   </ol>
+## 📌 HTML Tags
 
-- ####  Link and media tag
-   <ol>
-   <li>img</li>
-   image tag is used for insert image in a web page.
-   different attribute is used in img tag like src,alt,height,width,loading,class,id,title.
-   <li>a</li>
-   anchor tag used to link another page to the these page.
-   <li>video</li>
-   video tag is used for insert video in web page.
-   different attribute is used in image like src, controls,autoply,poster,loop and muted.
-   <li>audio</li>
-   audio tag is used for insert audio  in a web page.different attribute is used in a audio tag which is src, loop , muted , controls , autoplay.
-   </ol>
+### 🔹 Basic Structure Tags
 
-- ####  List Tag
-   <ol>
-   <li>ol</li>
-   ol is ordered list tag.
-   <li>ul</li>
-   ul is a unordered list tag.
-   <li>li</li>
-   li is a list item tag.
-   <li>dl</li>
-   dl is a description list tag.
-   <li>dt</li>
-   dt is a description term tag.
-   <li>dd</li>
-   dd is  a description detail tag.
+1. **`<html>`**  
+   The root tag of every HTML document.
 
+2. **`<head>`**  
+   Used to store meta-information such as title, links, scripts, and more.
 
-   </ol>
+3. **`<title>`**  
+   Displays the title in the browser tab.
 
-- #### table tag
+4. **`<body>`**  
+   Contains all the visible content on the web page.
 
-   <ol>
-   <li>table</li>
-   table tag is a root tag for table or table container.
-   <li>th</li>
-   th is a table head tag. it is used for store table head.
-   <li>tr</li>
-   tr is a table row tag. it is used for store row data.
-   <li>td</li>
-   td is a table data tag. it is used for store table data.
-   </ol>
+---
 
-- #### form tag
+### 🔹 Text Formatting Tags
 
-   <ol>
-   <li>form tag</li>
-   form tag is a container for form .it is a root tag for form.
-   <li>label tag</li>
-   label tag describe the input field to screen reader.it is useful for blind person.
-   <li>input tag</li>
-   input tag is used for take a user input. their are different attribute for input like text, placeholder etc.
-   <li>textarea tag</li>
-   textarea tag is used for input multiple line text.
-   <li>select and option tag</li>
-   these tag used for dropdown menu.
+1. **`<h1>` to `<h6>`**  
+   Heading tags. `<h1>` is the most important, and `<h6>` is the least important.
 
-   </ol>
+2. **`<p>`**  
+   Paragraph tag.
+
+3. **`<br>`**  
+   Line break.
+
+4. **`<hr>`**  
+   Inserts a horizontal line.
+
+5. **`<b>`**  
+   Makes text bold.
+
+6. **`<i>`**  
+   Makes text italic.
+
+7. **`<em>`**  
+   Emphasizes text (usually italicized, but semantically meaningful).
+
+8. **`<strong>`**  
+   Represents important text (usually bold).
+
+---
+
+### 🔹 Links and Media Tags
+
+1. **`<img>`**  
+   Inserts an image.  
+   Common attributes: `src`, `alt`, `width`, `height`, `title`, `loading`, `class`, `id`.
+
+2. **`<a>`**  
+   Anchor tag. Used to create hyperlinks to other pages or locations.
+
+3. **`<video>`**  
+   Embeds a video on the page.  
+   Attributes: `src`, `controls`, `autoplay`, `loop`, `poster`, `muted`.
+
+4. **`<audio>`**  
+   Embeds audio content.  
+   Attributes: `src`, `controls`, `autoplay`, `loop`, `muted`.
+
+---
+
+### 🔹 List Tags
+
+1. **`<ol>`**  
+   Ordered list.
+
+2. **`<ul>`**  
+   Unordered list.
+
+3. **`<li>`**  
+   List item.
+
+4. **`<dl>`**  
+   Description list.
+
+5. **`<dt>`**  
+   Description term.
+
+6. **`<dd>`**  
+   Description detail.
+
+---
+
+### 🔹 Table Tags
+
+1. **`<table>`**  
+   The main container for tables.
+
+2. **`<tr>`**  
+   Table row.
+
+3. **`<th>`**  
+   Table header cell.
+
+4. **`<td>`**  
+   Table data cell.
+
+---
+
+### 🔹 Form Tags
+
+1. **`<form>`**  
+   Main container for form inputs.
+
+2. **`<label>`**  
+   Describes the input field, helpful for accessibility (e.g., screen readers).
+
+3. **`<input>`**  
+   Accepts user input.  
+   Attributes include: `type`, `placeholder`, `required`, `value`, etc.
+
+4. **`<textarea>`**  
+   For multi-line text input.
+
+5. **`<select>` and `<option>`**  
+   Used to create dropdown menus.
+
+6. **`<button>`**  
+   Used to perform actions like submit or reset.
+
+---
+
+### 🔹 Grouping and Semantic Tags
+
+1. **`<div>`**  
+   Generic block-level container.
+
+2. **`<span>`**  
+   Generic inline-level container.
+
+3. **`<header>`**  
+   Top section of a web page.
+
+4. **`<main>`**  
+   Main content of the web page.
+
+5. **`<footer>`**  
+   Bottom section of the page.
+
+6. **`<section>`**  
+   Groups related content.
+
+7. **`<article>`**  
+   Self-contained content that can be reused independently (e.g., blog posts).
+
+8. **`<aside>`**  
+   Contains additional or side content, like ads or side notes.
+
+---
+
+✍️ _This is a summary of what I learned today. Practicing with these tags will help me build real-world web pages._
+
