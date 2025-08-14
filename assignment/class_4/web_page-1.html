@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+
+        }
+
+        nav {
+            display: flex;
+            background-color:#1f2937;
+            justify-content: space-around;
+            padding: 20px 80px;
+            color: white;
+
+        }
+        nav div ul {
+            display: flex;
+            justify-content: space-around;
+            list-style-type: none;
+            cursor: pointer;
+            gap: 25px;
+
+        }
+        nav div button {
+            padding: 5px 10px;
+            border-radius: 5px;
+            border: none;
+            cursor: pointer;
+        
+        }
+        nav div button:hover {
+            background-color: coral;
+            color: #ffffff;
+        }
+        .hero {
+            display: flex;
+            background-color: #1f2937;
+            color: #ffffff;
+            padding: 40px 80px;
+            align-items: center;
+        
+        }
+        .hero div {
+            width: 50%;
+
+        }
+        .hero div h1 {
+            font-size: 3rem;
+            margin: 1rem;
+            
+        }
+        .hero div p {
+            font-size: 1.2rem;
+            color: gray;
+            margin: 1rem;
+        }
+        .hero div button {
+            border: none;
+            border-radius: 5px;
+            padding: 8px 16px;
+            cursor: pointer;
+        }
+        .hero div button:hover {
+            background-color: coral;
+        }
+        .hero div img {
+            width: 100%;
+            border-radius: 20px;
+            object-fit: cover;
+            box-shadow: 0 0 10px white;
+        }
+        .hero div img:hover {
+            transform: rotate(10deg);
+        }
+        .logo-text {
+            text-align: center;
+            margin: 30px 0;
+            font-size: 42px;
+            color: #1f2937;
+        }
+        .logo {
+            margin: 20px 10%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border: 2px solid #0d0c0c;
+            padding: 20px;
+
+        }
+        .logo div img {
+            width: 300px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+
+        .three-card {
+            margin: 20px 10%;
+            display: flex;
+            justify-content: space-evenly;
+            border: 2px solid black;
+            padding: 30px;
+            box-shadow: 0 0 10px black;
+        }
+       
+        .card {
+            border: 2px solid black;
+            width: 20%;
+            border-radius: 10px;
+            text-align: center;
+            padding: 20px;
+            box-shadow: 0 0 10px black;
+        }
+         .card img {
+            width: 200px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+        .card h2 {
+            margin: 20px 0px;
+        }
+        .card p {
+            margin: 20px 0px;
+        }
+
+    </style>
+</head>
+<body>
+    <nav>
+        <div>
+            <p>MY-LOGO</p>
+        </div>
+        <div>
+            <ul>
+                <li>HOME</li>
+                <li>ABOUT US</li>
+                <li>CONTACT</li>
+            </ul>
+        </div>
+        <div>
+            <button>SINUP</button>
+            <button>LOGIN</button>
+        </div>
+    </nav>
+    <section class="hero">
+        <div>
+            <h1>Hero section</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas nostrum porro similique id. Sapiente veritatis ad aliquid, consequuntur deserunt necessitatibus.</p>
+            <button>SINUP</button>
+        </div>
+        
+        <div id="hero-imgage">
+            <img src="/assignment/class_1/Dev With Suraj (1).png" alt="dev with suraj" width="600px">
+        </div>
+        
+              
+    </section>
+
+    <h2 class="logo-text">our client</h2>
+    <section class="logo">
+        <div>
+            <img src="https://images.pexels.com/photos/18681383/pexels-photo-18681383.jpeg" alt="">
+        </div>
+
+        <div>
+            <img src="https://images.pexels.com/photos/18264716/pexels-photo-18264716.jpeg"  alt="">
+        </div>
+
+        <div>
+            <img src="https://images.pexels.com/photos/7775636/pexels-photo-7775636.jpeg"  alt="">
+        </div>
+    </section>
+    <section class="three-card">
+        <div class="card">
+            <img src="https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg" alt="">
+            <h2>card title</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, libero! Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, consequuntur!</p>
+        </div>
+
+        <div class="card">
+            <img src="https://images.pexels.com/photos/839011/pexels-photo-839011.jpeg" alt="">
+            <h2>card title</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, libero! Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, consequuntur!</p>
+        </div>
+
+        <div class="card">
+            <img src="https://images.pexels.com/photos/3777946/pexels-photo-3777946.jpeg" alt="">
+            <h2>card title</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, libero! Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, consequuntur!</p>
+        </div>
+    </section>
+</body>
+</html>

@@ -1,0 +1,17 @@
+#btn {
+    background-color: aquamarine;
+    height: 150px;
+    
+}
+#btn-1 {
+    background-color:gray;
+    height: 400px;
+}
+#btn-2 {
+    background-color: burlywood;
+    height: 160px;
+}
+#bt {
+    display: flex;
+    
+}
