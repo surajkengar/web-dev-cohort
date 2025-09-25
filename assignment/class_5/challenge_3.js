@@ -1,6 +1,5 @@
 function print(){
     console.log("hello coders in web cohort");
-
 }
 
 print();
