@@ -1,5 +1,3 @@
-// do while loop
-
 let num=10;
 let i=0;
 
