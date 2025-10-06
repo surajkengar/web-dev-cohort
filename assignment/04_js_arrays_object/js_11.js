@@ -1,4 +1,6 @@
 // object in array
+// object is collection of key value pair
+// datatype of object is object.
 const person ={
     name:"suraj",
     age :23,
