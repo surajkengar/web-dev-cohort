@@ -2,8 +2,8 @@
 
 // const {MongoClient}=require("mongodb")
 
-// // const url = "mongodb+srv://suraj_kengar:sk%40123@cluster0.avqix1z.mongodb.net/";
-// const url = "mongodb+srv://suraj_kengar:sk%40123@cluster0.avqix1z.mongodb.net/";
+// // const url = "";
+// const url = "";
 
 // const client = new MongoClient(url);
 
@@ -51,7 +51,7 @@
 
 const { MongoClient } = require("mongodb");
 
-const uri = "mongodb+srv://suraj_kengar:sk%40123@suraj_kengar.avqix1z.mongodb.net/";
+const uri = "";
 
 const client = new MongoClient(uri);
 
