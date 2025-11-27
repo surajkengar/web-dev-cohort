@@ -1,3 +1,5 @@
+// prop drilling .
+
 import {useState} from "react";
 
 import State_1 from "./State_1";
