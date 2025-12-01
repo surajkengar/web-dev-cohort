@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #2c3e50;
+    color: #efefef;
+}
+
+button, input {
+    font-family: inherit;
+    font-size: inherit;
+    cursor: pointer;
+}
+
+.container {
+    max-width: 900px;
+    width: 95%;
+    margin: auto;
+}
+
+.Todoform {
+    display: grid;
+    grid-template-columns: 1fr 120px;
+    align-items: center;
+    height: 54px;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 0 1rem;
+}
+
+.Todoform_input {
+    border: none;
+    outline: none;
+    background-color: #fff;
+    font-size: 1.2rem;
+    font-weight: 500;
+    height: 100%;
+}
+
+.Todoform_btn {
+    border: none;
+    outline: none;
+    background-color: #2c3e50;
+    color: #fff;
+    padding: 0.5rem;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.main_title {
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.Todo {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+    color: #000;
+    padding: 1rem;
+    border-radius: 8px;
+}
+
+.todo_title {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.todo_title p {
+    font-size: 1.2rem;
+}
+
+input[type="checkbox"] {
+    height: 25px;
+    width: 25px;
+    accent-color: #2c3e50;
+}
+
+.cross_btn {
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.completed {
+    text-decoration: line-through;
+    opacity: 0.8;
+}
