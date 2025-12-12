@@ -1,12 +1,14 @@
 
-
-function Todo({id,name,status , dispatch}){
+import { useContext } from "react";
+import { mycontext } from "./App";
+function Todo({todo}){
+    const{state , dispatch } = useContext(mycontext);
     function handleClick(){
-        dispatch({type:"delete_todo", payload:{id:id}});
+        dispatch({type:"delete_todo", payload:{id:todo.id}});
     }
 
     function handleToggle(){
-        dispatch({type:"Toggle" , payload:{id:id}});
+        dispatch({type:"Toggle" , payload:{id:todo.id}});
     }
     return (
         <div style={{
@@ -18,9 +20,9 @@ function Todo({id,name,status , dispatch}){
         }
             
         }>
-            <h4>id : {id}</h4>
-            <h4>name :{name}</h4>
-            <h4>status :{status?"true":"false"}</h4>
+            <h4>id : {todo.id}</h4>
+            <h4>name :{todo.name}</h4>
+            <h4>status :{todo.status?"true":"false"}</h4>
             <button onClick={handleClick}>Delete</button>
             <button onClick={handleToggle}>Toggle completed</button>
         </div>

@@ -1,6 +1,8 @@
 import {  useReducer } from "react";
 import Todos  from "./todos";
 import Addtodo from "./AddTodoform";
+import { createContext } from "react";
+export const mycontext=createContext();
 function reducer(state , action){
   if(action.type === "delete_todo"){
      return state.filter((todo)=> todo.id !== action.payload.id);
@@ -30,11 +32,13 @@ function App() {
   const[state , dispatch]=useReducer(reducer , initialState);
 
   return (
-    <>
-        <Addtodo dispatch={dispatch}/>
-        <Todos todos={state} dispatch={dispatch}/>
+    <mycontext.Provider  value={
+      {state , dispatch}
+    }>
+        <Addtodo />
+        <Todos />
         
-    </>
+    </mycontext.Provider>
   )
 }
 
